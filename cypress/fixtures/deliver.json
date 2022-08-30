@@ -1,0 +1,50 @@
+{
+    "signup": {
+        "name": "Daniel Alves",
+        "cpf": "00000000001",
+        "email": "alves@gmail.com",
+        "whatsapp": "92999999999",
+        "address": {
+            "postalcode": "69018567",
+            "street": "Rua Rio Madeira",
+            "number": "05",
+            "details": "APT-202",
+            "district": "Lago Azul",
+            "city_state": "Manaus/AM"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "cpf_inv": {
+        "name": "Oliveira Alves",
+        "cpf": "x0000000001",
+        "email": "oliveira@gmail.com",
+        "whatsapp": "97999999999",
+        "address": {
+            "postalcode": "69018567",
+            "street": "Rua Rio Madeira",
+            "number": "05",
+            "details": "APT-202",
+            "district": "Lago Azul",
+            "city_state": "Manaus/AM"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "email_inv": {
+        "name": "Daniel Alves",
+        "cpf": "00000000001",
+        "email": "alvesgmail.com",
+        "whatsapp": "92999999999",
+        "address": {
+            "postalcode": "69018567",
+            "street": "Rua Rio Madeira",
+            "number": "05",
+            "details": "APT-202",
+            "district": "Lago Azul",
+            "city_state": "Manaus/AM"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+}
