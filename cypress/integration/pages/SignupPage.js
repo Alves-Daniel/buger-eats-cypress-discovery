@@ -15,7 +15,7 @@ class SignupPage {
         cy.get('input[name="postalcode"]').type(deliver.address.postalcode)
         cy.get('input[type="button"][value="Buscar CEP"]').click()
 
-        cy.get('input[name="address-number"]').type(deliver.address.number)
+        cy.get('input[name="address"]').type(deliver.address.number)
         cy.get('input[name="address-details"]').type(deliver.address.details)
 
         cy.get('input[name="address-street"]').should('have.value', deliver.address.street)
