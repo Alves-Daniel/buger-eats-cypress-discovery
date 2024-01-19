@@ -18,7 +18,7 @@ class SignupPage {
         cy.get('input[name="address-number"]').type(deliver.address.number)
         cy.get('input[name="address-details"]').type(deliver.address.details)
 
-        cy.get('input[name="address-street"]').should('have.value', deliver.address.street)
+        cy.get('input[name="address"]').should('have.value', deliver.address.street)
         cy.get('input[name="address-district"]').should('have.value', deliver.address.district)
         cy.get('input[name="address-city-uf"]').should('have.value', deliver.address.city_state)
 
