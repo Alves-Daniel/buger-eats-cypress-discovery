@@ -19,8 +19,8 @@ class SignupPage {
         cy.get('input[name="address-details"]').type(deliver.address.details)
 
         cy.get('input[name="address-street"]').should('have.value', deliver.address.street)
-        cy.get('input[name="district"]').should('have.value', deliver.address.district)
-        cy.get('input[name="city-uf"]').should('have.value', deliver.address.city_state)
+        cy.get('input[name="address-district"]').should('have.value', deliver.address.district)
+        cy.get('input[name="address-city-uf"]').should('have.value', deliver.address.city_state)
 
         cy.contains('.delivery-method li', deliver.delivery_method).click()
         cy.get('input[accept^="image"]').attachFile('/images/' + deliver.cnh)
